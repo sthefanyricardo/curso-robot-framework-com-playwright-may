@@ -1,0 +1,19 @@
+# Ignorar pastas comuns
+results/
+arquivos_curso
+__pycache__/
+.github/workflows/
+
+# Ignorar arquivos específicos
+*.log
+interactive_console_output.xml
+.vscode
+launch.json
+.zip
+.html 
+.pyc
+
+# Ignorar arquivos de compilação
+*.exe
+*.dll
+*.class
