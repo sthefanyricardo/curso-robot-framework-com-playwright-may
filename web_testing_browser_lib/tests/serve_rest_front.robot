@@ -10,3 +10,15 @@ Login com sucesso Serve Rest Front
   Ir para o site Serve Rest Front
   Preencher os dados do novo usuário e cadastrar
   Conferir usuário cadastrado com sucesso
+
+Exemplo utilizando Requisições HTTP
+  [Tags]  CT02
+  Abrir o navegador
+  Ir para o site Serve Rest Front
+  Criar usuário via API
+  Logar com o usuário cadastrado via API
+
+Exemplo Utilizando o Storage Armazenado no Contexto
+  [Tags]  CT03
+  Abrir o Site Serve Rest Front Logado
+  Acessar a Lista de usuários
