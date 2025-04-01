@@ -45,6 +45,14 @@ Conferir usuário cadastrado com sucesso
   Get Text  h1  ==  Bem Vindo Mayara Fernandes
   Get Element States  css=button[data-testid='logout']  validate  value & visible
 
+Cadastrar Usuário e Logar
+    New Browser
+    New Page      url=${SITE_SERVE_REST}
+    Criar usuário via API
+    Logar com o usuário cadastrado via API
+    ${STORAGE_FILE}  Save Storage State
+    Set Suite Variable  ${STORAGE_FILE}
+
 Acessar a Lista de usuários
   Click  css=a[data-testid='listarUsuarios']
 
