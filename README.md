@@ -4,9 +4,18 @@ Este repositório contém os arquivos de exemplos e desafio de exercícios, dese
 
 ## 📚 Sobre o Curso
 
-Este curso é destinado...
+Este curso é voltado para profissionais que já possuem conhecimentos básicos em **Robot Framework** e desejam aprimorar suas habilidades na automação de testes web utilizando a **Browser Library**, baseada no **Playwright**.
+
+Durante as aulas, são abordadas técnicas avançadas para automação de testes web, comparações entre as bibliotecas **BrowserLibrary** e **SeleniumLibrary**, além da implementação de **integração contínua (CI/CD) com GitHub Actions**.
+
+### Conteúdo do Curso
+- **Configuração do ambiente** para automação de testes.  
+- **Diferenças entre BrowserLibrary e SeleniumLibrary**.  
+- **Utilização da Library Browser** para automação de testes web.  
+- **Exploração dos principais recursos da Library Browser** na prática.  
+- **Criação de uma pipeline CI/CD** no **GitHub Actions** para execução automatizada dos testes.
 
 ## 🙋‍♀️ Autora
-Feito com ❤️ por Sthefany A. Ricardo.
+Feito com ❤️ por **Sthefany A. Ricardo**.
 
-📅 Última atualização: Março de 2025.
+📅 Última atualização: **Abril de 2025**.
