@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation  Testes de automação com o Browser Library "https://robotframework-browser.org/"
 Resource  ../resources/serve_rest_front.resource
+Suite Setup  Cadastrar Usuário e Logar
 
 *** Test Cases ***
 Login com sucesso Serve Rest Front
