@@ -1,4 +1,4 @@
-# Automação de Testes Web com Robot Framework + Playwright (Library Browser) + Execução no GitHub Actions
+# Automação de Testes Web com Robot Framework + Playwright (Library Browser) + Execução no GitHub Actions - ![Status](https://img.shields.io/badge/Status-Em%20Andamento-yellow)  
 
 Este repositório contém os arquivos de exemplos e desafio de exercícios, desenvolvidos durante o curso de [Robot Framework com Playwright e GitHub Actions](https://www.udemy.com/course/robot-framework-com-playwright-e-github-actions), ministrado por Mayara "May" Fernandes. 
 
