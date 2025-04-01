@@ -13,6 +13,7 @@ Login com sucesso Serve Rest Front
   Conferir usuário cadastrado com sucesso
 
 Exemplo utilizando Requisições HTTP
+  [Documentation]  Teste de login com sucesso no site Serve Rest Front utilizando requisições HTTP
   [Tags]  CT02
   Abrir o navegador
   Ir para o site Serve Rest Front
@@ -20,6 +21,7 @@ Exemplo utilizando Requisições HTTP
   Logar com o usuário cadastrado via API
 
 Exemplo Utilizando o Storage Armazenado no Contexto
+  [Documentation]  Teste de login com sucesso no site Serve Rest Front utilizando o Storage Armazenado no Contexto
   [Tags]  CT03
   Abrir o Site Serve Rest Front Logado
   Acessar a Lista de usuários
