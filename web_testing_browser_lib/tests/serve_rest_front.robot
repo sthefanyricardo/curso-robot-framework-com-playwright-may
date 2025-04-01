@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation  Testes de automação com o Browser Library "https://robotframework-browser.org/"
 Resource  ../resources/serve_rest_front.resource
 
 *** Test Cases ***
