@@ -1,5 +1,5 @@
 *** Settings ***
-Resource  ../resources/serve_rest_fron.resource
+Resource  ../resources/serve_rest_front.resource
 
 *** Test Cases ***
 Login com sucesso Serve Rest Front
