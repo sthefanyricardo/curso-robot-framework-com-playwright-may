@@ -1,0 +1,26 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://front.serverest.dev",
+      "localStorage": [
+        {
+          "name": "serverest/userNome",
+          "value": "Brian Robertson"
+        },
+        {
+          "name": "serverest/userPassword",
+          "value": "123456"
+        },
+        {
+          "name": "serverest/userToken",
+          "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkJyaWFuX1JvYmVydHNvbkB0ZXN0ZWF1dG9tYWNhby5jb20iLCJwYXNzd29yZCI6IjEyMzQ1NiIsImlhdCI6MTc0MzU5NTY4MywiZXhwIjoxNzQzNTk2MjgzfQ.Of4DnMD0mxUSEfToC1oANK5Lv6YLQEbL3Y6_dU_-Ies"
+        },
+        {
+          "name": "serverest/userEmail",
+          "value": "Brian_Robertson@testeautomacao.com"
+        }
+      ]
+    }
+  ]
+}
