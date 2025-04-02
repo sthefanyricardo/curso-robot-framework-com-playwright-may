@@ -116,7 +116,7 @@ Realizar o login com sucesso
   Click   xpath=//*[@id="root"]//button >> text="Entrar"
 
 Gerar informações de produto
-  ${PRODUTO}  FakerLibrary.Word
+  ${NOME_PROD}  FakerLibrary.Word
   ${VALOR}  FakerLibrary.Random Int  min=1  max=1000
   ${QUANT}  FakerLibrary.Random Int  min=1  max=100
   Set Suite Variable  ${NOME_PROD}
