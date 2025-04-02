@@ -117,8 +117,8 @@ Realizar o login com sucesso
 
 Gerar informações de produto
   ${NOME_PROD}  FakerLibrary.Word
-  ${VALOR}  FakerLibrary.Random Int  min=1  max=1000
-  ${QUANT}  FakerLibrary.Random Int  min=1  max=100
+  ${VALOR_PROD}  FakerLibrary.Random Int  min=1  max=1000
+  ${QUANT_PROD}  FakerLibrary.Random Int  min=1  max=100
   Set Suite Variable  ${NOME_PROD}
   Set Suite Variable  ${VALOR_PROD}
   Set Suite Variable  ${QUANT_PROD}
