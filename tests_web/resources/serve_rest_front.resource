@@ -8,7 +8,7 @@ Library  String
 
 *** Variables ***
 ${BROWSER}   chromium
-${HEADLESS}  ${true}
+${HEADLESS}  ${false}
 ${SITE_SERVE_REST}   https://front.serverest.dev/
 
 *** Keywords ***
