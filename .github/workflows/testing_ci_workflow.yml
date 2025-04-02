@@ -48,7 +48,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.browser }}_results
-          path: ./resultados-testes-CI
+          path: resultados-testes-CI
           if-no-files-found: ignore
           retention-days: 2
   
@@ -57,15 +57,10 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: ${{ matrix.browser }}_results
-          path: ./resultados/${{ matrix.browser }}
+          path: resultados/${{ matrix.browser }}
 
-      - name: Debug - Verificar arquivos baixados
-        if: always()
-        run: ls -R ./resultados/${{ matrix.browser }} || echo "Nenhum arquivo baixado!"
-      
-      - name: Publicar Sumário no GitHub Actions
-        if: always()
-        run: |
-          echo "## 📊 Resultados dos Testes Automatizados 🚀" >> $GITHUB_STEP_SUMMARY
-          echo "- Navegador da execução do teste web: **${{ matrix.browser }}**" >> $GITHUB_STEP_SUMMARY
-          echo "- Status da execução: **${{ job.status == 'success' && '✅ Sucesso' || '❌ Falha' }}**" >> $GITHUB_STEP_SUMMARY
+      - name: Robot Reporter
+        uses: joonvena/robotframework-reporter-action@v2.5
+        with:
+          gh_access_token: ${{ secrets.GITHUB_TOKEN }}
+          report_path: tests-results-CI
