@@ -9,7 +9,7 @@ Este curso é voltado para profissionais que já possuem conhecimentos básicos 
 Durante as aulas, são abordadas técnicas avançadas para automação de testes web, comparações entre as bibliotecas **BrowserLibrary** e **SeleniumLibrary**, além da implementação de **integração contínua (CI/CD) com GitHub Actions**.
 
 ### Conteúdo do Curso
-- **Configuração do ambiente** para automação de testes.  
+- **Configuração do ambiente** para automação de testes web.  
 - **Diferenças entre BrowserLibrary e SeleniumLibrary**.  
 - **Utilização da Library Browser** para automação de testes web.  
 - **Exploração dos principais recursos da Library Browser** na prática.  
