@@ -2,7 +2,6 @@
 results/
 arquivos_curso
 __pycache__/
-.github/workflows/
 
 # Ignorar arquivos específicos
 *.log
