@@ -45,7 +45,7 @@ jobs:
       - name: Run tests
         run: |
           robot -d ./resultados-testes-CI -v HEADLESS:true \
-          -v BROWSER:${{ inputs.browser }} -i ${{ inputs.tag }} tests
+          -v BROWSER:${{ inputs.browser }} -i ${{ inputs.tag }} tests_web/tests
 
       - name: Upload test results
         if: always()
